@@ -1,0 +1,33 @@
+@import url("../../blocks/intro/__title/intro__title.css");
+@import url("../../blocks/intro/__content-row/intro__content-row.css");
+@import url("../../blocks/intro/__content-text/intro__content-text.css");
+@import url("../../blocks/intro/__content-author/intro__content-author.css");
+@import url("../../blocks/intro/__bold-text/intro__bold-text.css");
+@import url("../../blocks/intro/__text/intro__text.css");
+@import url("../../blocks/intro/__list/intro__list.css");
+
+.intro {
+    max-width: 985px;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+} 
+
+@media (max-width: 1270px) {
+    .intro  {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+}
+
+@media (max-width: 768px) {
+    .intro  {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media (max-width: 425px) {
+    .intro  {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}

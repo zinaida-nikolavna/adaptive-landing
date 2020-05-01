@@ -1,0 +1,10 @@
+.comments__content-title {
+    margin: 0 auto;
+    margin-top: 102px;
+}
+
+@media (max-width: 425px) {
+    .comments__content-title{
+        margin-top: 64px;
+    }
+}

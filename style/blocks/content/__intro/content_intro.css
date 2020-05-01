@@ -1,0 +1,10 @@
+.content__intro {
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+@media (max-width: 425px) {
+    .content__intro {
+        margin-top: 64px;
+    }
+}

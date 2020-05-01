@@ -1,0 +1,10 @@
+.content__places {
+    margin: 0 auto;
+    margin-top: 92px;
+}
+
+@media (max-width: 425px) {
+    .content__places {
+        margin-top: 64px;
+    }
+}

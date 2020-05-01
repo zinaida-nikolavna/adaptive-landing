@@ -1,0 +1,31 @@
+@import url("../../blocks/comment/__author/comment__author.css");
+@import url("../../blocks/comment/__image/comment__image.css");
+@import url("../../blocks/comment/__quote/comment__quote.css");
+
+.comment {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    width: calc(33% - 6.3px);
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .comment {
+        width: 50%;
+        margin-bottom: 47px;
+    }
+    .comment:last-child {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .comment {
+        width: 100%;
+        margin-bottom: 47px;
+    }
+    .comment:last-child {
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,10 @@
+.video__content-title {
+    margin: 0 auto;
+    margin-top: 102px;
+}
+
+@media (max-width: 650px) {
+    .video__content-title {
+        margin-top: 64px;;
+    }
+}

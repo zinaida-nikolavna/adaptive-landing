@@ -1,0 +1,17 @@
+@import url("../../blocks/lead/__title/lead__title.css");
+@import url("../../blocks/lead/__subtitle/lead__subtitle.css");
+@import url("../../blocks/lead/__image/lead__image.css");
+@import url("../../blocks/lead/__caption/lead__caption.css");
+@import url("../../blocks/lead/__illustration/lead__illustration.css");
+
+.lead {
+    max-width: 985px;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+@media (min-width: 769px) and (max-width: 1270px){
+    .lead {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+}

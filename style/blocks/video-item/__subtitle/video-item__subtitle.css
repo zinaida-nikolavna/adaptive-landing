@@ -1,0 +1,19 @@
+.video-item__subtitle {
+    font-size: 14px;
+    line-height: 15px;
+    color: #fff;
+    padding-top: 18px;
+}
+
+@media (min-width: 425px) and (max-width: 1023px){
+    .video-item__subtitle {
+        padding-top: 12px;
+    }
+}
+
+@media (max-width: 425px){
+    .video-item__subtitle {
+        padding-top: 12px;
+    }
+}
+

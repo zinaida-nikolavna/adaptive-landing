@@ -1,0 +1,11 @@
+@import url("./__cover/content__cover.css");
+@import url("./__intro/content_intro.css");
+@import url("./__lead/content__lead.css");
+@import url("./__photo-grid/content__photo-grid.css");
+@import url("./__places/content__places.css");
+
+.content {
+    max-width: 1184px;
+    box-sizing: border-box;
+}
+
